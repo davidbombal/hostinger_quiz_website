@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of a router?",
+            "option_a": "A. To connect multiple networks together",
+            "option_b": "B. To provide internet access",
+            "option_c": "C. To filter traffic",
+            "option_d": "D. To store data",
+            "correct_answer": "A",
+            "explanation": "A router is a device that connects multiple networks together. It uses routing protocols to determine the best path for data to travel between networks."
+        },
+        {
+            "question": "What is the difference between a hub and a switch?",
+            "option_a": "A. A hub broadcasts all traffic to all ports, while a switch only sends traffic to the port that the destination device is connected to.",
+            "option_b": "B. A hub is a physical device, while a switch is a logical device.",
+            "option_c": "C. A hub is more expensive than a switch.",
+            "option_d": "D. A hub is faster than a switch.",
+            "correct_answer": "A",
+            "explanation": "A hub broadcasts all traffic to all ports, while a switch only sends traffic to the port that the destination device is connected to. This makes switches more efficient and less likely to cause collisions."
+        },
+        {
+            "question": "What is the purpose of a firewall?",
+            "option_a": "A. To protect a network from unauthorized access.",
+            "option_b": "B. To provide internet access.",
+            "option_c": "C. To filter traffic.",
+            "option_d": "D. To store data.",
+            "correct_answer": "A",
+            "explanation": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It is used to protect a network from unauthorized access, malicious traffic, and other security threats."
+        },
+        {
+            "question": "What is the difference between a static and a dynamic IP address?",
+            "option_a": "A. A static IP address is assigned by a network administrator, while a dynamic IP address is assigned by a DHCP server.",
+            "option_b": "B. A static IP address cannot be changed, while a dynamic IP address can be changed.",
+            "option_c": "C. A static IP address is more secure than a dynamic IP address.",
+            "option_d": "D. A dynamic IP address is more efficient than a static IP address.",
+            "correct_answer": "A",
+            "explanation": "A static IP address is assigned by a network administrator and remains the same for the life of the device. A dynamic IP address is assigned by a DHCP server and can change each time the device connects to the network."
+        },
+        {
+            "question": "What is the purpose of a DNS server?",
+            "option_a": "A. To translate domain names into IP addresses.",
+            "option_b": "B. To provide internet access.",
+            "option_c": "C. To filter traffic.",
+            "option_d": "D. To store data.",
+            "correct_answer": "A",
+            "explanation": "A DNS server is a server that translates domain names into IP addresses. This allows users to access websites by typing in a domain name, such as www.google.com, instead of having to remember the IP address, such as 172.217.14.192."
+        },
+        {
+            "question": "What is the purpose of a subnet mask?",
+            "option_a": "A. To divide a network into smaller networks.",
+            "option_b": "B. To identify the network and host addresses.",
+            "option_c": "C. To filter traffic.",
+            "option_d": "D. To store data.",
+            "correct_answer": "A",
+            "explanation": "A subnet mask is a 32-bit number that is used to divide a network into smaller networks. The subnet mask is used by routers to determine which packets should be forwarded to which networks."
+        },
+        {
+            "question": "What is the difference between a broadcast address and a multicast address?",
+            "option_a": "A. A broadcast address is sent to all hosts on a network, while a multicast address is sent to a group of hosts on a network.",
+            "option_b": "B. A broadcast address is a single IP address, while a multicast address is a range of IP addresses.",
+            "option_c": "C. A broadcast address cannot be used as a host address, while a multicast address can be used as a host address.",
+            "option_d": "D. A broadcast address is used to send data to all hosts on a network, while a multicast address is used to send data to a group of hosts on a network.",
+            "correct_answer": "D",
+            "explanation": "A broadcast address is sent to all hosts on a network, while a multicast address is sent to a group of hosts on a network. A broadcast address cannot be used as a host address, while a multicast address can be used as a host address."
+        },
+        {
+            "question": "What is the purpose of a VLAN?",
+            "option_a": "A. To divide a network into smaller networks.",
+            "option_b": "B. To identify the network and host addresses.",
+            "option_c": "C. To filter traffic.",
+            "option_d": "D. To store data.",
+            "correct_answer": "A",
+            "explanation": "A VLAN is a virtual LAN that is used to divide a network into smaller networks. VLANs are created by assigning ports on a switch to a VLAN. Traffic on a VLAN is only forwarded to other ports on the same VLAN."
+        },
+        {
+            "question": "What is the difference between a layer 2 and a layer 3 switch?",
+            "option_a": "A. A layer 2 switch uses MAC addresses to make forwarding decisions, while a layer 3 switch uses IP addresses to make forwarding decisions.",
+            "option_b": "B. A layer 2 switch can only forward traffic within a VLAN, while a layer 3 switch can forward traffic between VLANs.",
+            "option_c": "C. A layer 2 switch is less expensive than a layer 3 switch.",
+            "option_d": "D. A layer 2 switch is faster than a layer 3 switch.",
+            "correct_answer": "A",
+            "explanation": "A layer 2 switch uses MAC addresses to make forwarding decisions, while a layer 3 switch uses IP addresses to make forwarding decisions. This means that a layer 2 switch can only forward traffic within a VLAN, while a layer 3 switch can forward traffic between VLANs."
+        },
+        {
+            "question": "What is the purpose of a hub?",
+            "option_a": "A. To connect multiple devices together.",
+            "option_b": "B. To provide internet access.",
+            "option_c": "C. To filter traffic.",
+            "option_d": "D. To store data.",
+            "correct_answer": "A",
+            "explanation": "A hub is a simple device that is used to connect multiple devices together. It does not have any intelligence and simply broadcasts all traffic to all ports. This makes hubs inefficient and more likely to cause collisions."
+        }
+    ]
+}

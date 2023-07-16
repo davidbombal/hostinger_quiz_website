@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+}
+
+.logo {
+    width: 100px;
+}
+
+.exam-type,
+.score {
+    margin-left: 1rem;
+}
+
+.question-card {
+    max-width: 1020px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin-bottom: 1.5rem;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin-bottom: 1rem;
+}
+
+.submit-button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+.incorrect {
+    color: #E53935;
+    margin: 20px;
+    background-color: #FFEBEE;
+    border: 1px solid #E53935;
+    padding: 20px;
+}
+
+.question > p {
+    font-weight: bold;
+}
+
+label {
+    margin-left: 10px;
+}

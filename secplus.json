@@ -1,0 +1,148 @@
+{
+    "questions": [
+        {
+            "question": "Which of the following is the most secure method for securely disposing of sensitive information on a magnetic storage device?",
+            "option_a": "A. Deleting the files",
+            "option_b": "B. Reformatting the drive",
+            "option_c": "C. Degaussing the device",
+            "option_d": "D. Overwriting with random data",
+            "correct_answer": "C",
+            "explanation": "Degaussing is the most secure method for disposing of sensitive information on a magnetic storage device, as it uses a strong magnetic field to completely erase the data."
+        },
+        {
+            "question": "Which type of attack involves intercepting and altering network traffic?",
+            "option_a": "A. Replay attack",
+            "option_b": "B. Man-in-the-middle attack",
+            "option_c": "C. Denial of service attack",
+            "option_d": "D. Smurf attack",
+            "correct_answer": "B",
+            "explanation": "A man-in-the-middle attack involves an attacker intercepting and altering network traffic between two parties, often to eavesdrop or manipulate the communication."
+        },
+        {
+            "question": "What is the primary goal of a risk assessment?",
+            "option_a": "A. Identifying threats",
+            "option_b": "B. Mitigating vulnerabilities",
+            "option_c": "C. Quantifying risk",
+            "option_d": "D. Prioritizing risk mitigation strategies",
+            "correct_answer": "C",
+            "explanation": "The primary goal of a risk assessment is to quantify risk, which helps organizations understand their overall security posture and make informed decisions about risk mitigation."
+        },
+        {
+            "question": "Which of the following cryptographic algorithms is considered asymmetric?",
+            "option_a": "A. AES",
+            "option_b": "B. 3DES",
+            "option_c": "C. RSA",
+            "option_d": "D. Blowfish",
+            "correct_answer": "C",
+            "explanation": "RSA is an asymmetric cryptographic algorithm, which uses a pair of public and private keys for encryption and decryption."
+        },
+        {
+            "question": "In a PKI, what is the primary function of a Certificate Authority (CA)?",
+            "option_a": "A. Issuing digital certificates",
+            "option_b": "B. Managing encryption keys",
+            "option_c": "C. Verifying user identities",
+            "option_d": "D. Creating digital signatures",
+            "correct_answer": "A",
+            "explanation": "In a Public Key Infrastructure (PKI), the primary function of a Certificate Authority (CA) is to issue digital certificates, which authenticate the identity of individuals or organizations."
+        },
+        {
+            "question": "Which type of access control model uses labels to determine access?",
+            "option_a": "A. Discretionary Access Control (DAC)",
+            "option_b": "B. Role-Based Access Control (RBAC)",
+            "option_c": "C. Mandatory Access Control (MAC)",
+            "option_d": "D. Attribute-Based Access Control (ABAC)",
+            "correct_answer": "C",
+            "explanation": "Mandatory Access Control (MAC) uses labels to determine access to resources, typically based on security classification levels."
+        },
+        {
+            "question": "Which of the following is the BEST method to prevent a man-in-the-middle attack?",
+            "option_a": "A. Firewall",
+            "option_b": "B. Intrusion Detection System",
+            "option_c": "C. Mutual authentication",
+            "option_d": "D. Antivirus software",
+            "correct_answer": "C",
+            "explanation": "Mutual authentication is the best method to prevent a man-in-the-middle attack, as it ensures that both parties involved in the communication authenticate each other before exchanging information. This prevents an attacker from intercepting and modifying the communication."
+        },
+        {
+            "question": "What type of security control is a biometric authentication system?",
+            "option_a": "A. Technical",
+            "option_b": "B. Physical",
+            "option_c": "C. Administrative",
+            "option_d": "D. Operational",
+            "correct_answer": "B",
+            "explanation": "A biometric authentication system is considered a physical security control, as it uses a person's unique physical characteristics (e.g., fingerprint, facial recognition) to grant or deny access to a system or area."
+        },
+        {
+            "question": "Which encryption algorithm uses a fixed-size 128-bit block but supports key sizes of 128, 192, and 256 bits?",
+            "option_a": "A. RSA",
+            "option_b": "B. DES",
+            "option_c": "C. AES",
+            "option_d": "D. 3DES",
+            "correct_answer": "C",
+            "explanation": "The Advanced Encryption Standard (AES) uses a fixed-size 128-bit block and supports key sizes of 128, 192, and 256 bits. It is a symmetric key encryption algorithm widely used for its efficiency and security."
+        },
+        {
+            "question": "Which of the following terms describes the process of converting plaintext into ciphertext?",
+            "option_a": "A. Decryption",
+            "option_b": "B. Encryption",
+            "option_c": "C. Hashing",
+            "option_d": "D. Salting",
+            "correct_answer": "B",
+            "explanation": "Encryption is the process of converting plaintext into ciphertext, using an algorithm and a key. This process helps protect sensitive information by making it unreadable to unauthorized users."
+        },
+        {
+            "question": "What type of attack involves intercepting and modifying a user's communication in real-time?",
+            "option_a": "A. Phishing",
+            "option_b": "B. Man-in-the-middle",
+            "option_c": "C. Denial of service",
+            "option_d": "D. Brute force",
+            "correct_answer": "B",
+            "explanation": "A man-in-the-middle attack involves intercepting and modifying a user's communication in real-time. An attacker positions themselves between the user and the intended recipient, allowing them to read, modify, or inject new data into the communication."
+        },
+        {
+            "question": "Which of the following security principles requires that a user be given the minimum levels of access necessary to perform their job?",
+            "option_a": "A. Separation of duties",
+            "option_b": "B. Least privilege",
+            "option_c": "C. Need to know",
+            "option_d": "D. Job rotation",
+            "correct_answer": "B",
+            "explanation": "The principle of least privilege requires that a user be given the minimum levels of access necessary to perform their job. This helps minimize the risk of unauthorized access and potential damage caused by user error or malicious activity."
+        },
+        {
+            "question": "What type of malware is specifically designed to create a backdoor on a compromised system?",
+            "option_a": "A. Virus",
+            "option_b": "B. Worm",
+            "option_c": "C. Trojan",
+            "option_d": "D. Ransomware",
+            "correct_answer": "C",
+            "explanation": "A Trojan is a type of malware that is specifically designed to create a backdoor on a compromised system, allowing an attacker to gain unauthorized access and control of the system. Trojans often disguise themselves as legitimate software or are embedded within other seemingly harmless programs."
+        },
+        {
+            "question": "Which network security device inspects traffic at the application layer and can make access control decisions based on user identity, application, or content?",
+            "option_a": "A. Firewall",
+            "option_b": "B. Intrusion Prevention System",
+            "option_c": "C. Web Application Firewall",
+            "option_d": "D. Next-Generation Firewall",
+            "correct_answer": "D",
+            "explanation": "A Next-Generation Firewall (NGFW) inspects traffic at the application layer and can make access control decisions based on user identity, application, or content. This provides a higher level of security compared to traditional firewalls by considering more contextual information about the traffic."
+        },
+        {
+            "question": "In the context of PKI, what is the primary purpose of a Certificate Authority (CA)?",
+            "option_a": "A. Generate private keys for users",
+            "option_b": "B. Issue and manage digital certificates",
+            "option_c": "C. Decrypt encrypted messages",
+            "option_d": "D. Monitor network traffic for security threats",
+            "correct_answer": "B",
+            "explanation": "In the context of Public Key Infrastructure (PKI), the primary purpose of a Certificate Authority (CA) is to issue and manage digital certificates. The CA verifies the identity of the certificate requestor and vouches for their authenticity by signing the certificate."
+        },
+        {
+            "question": "What type of network attack involves overwhelming a system or service with a large volume of requests, rendering it unavailable to legitimate users?",
+            "option_a": "A. Phishing",
+            "option_b": "B. Man-in-the-middle",
+            "option_c": "C. Denial of Service (DoS)",
+            "option_d": "D. Brute force",
+            "correct_answer": "C",
+            "explanation": "A Denial of Service (DoS) attack involves overwhelming a system or service with a large volume of requests, rendering it unavailable to legitimate users. The primary goal of a DoS attack is to disrupt or deny the target's ability to provide its intended service."
+        }
+    ]
+}

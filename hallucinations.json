@@ -1,0 +1,832 @@
+{
+    "questions": [
+        {
+            "question": "What is the default administrative distance for EIGRP routes?",
+            "option_a": "A. 1",
+            "option_b": "B. 50",
+            "option_c": "C. 120",
+            "option_d": "D. 200",
+            "correct_answer": "C",
+            "explanation": "The default administrative distance for EIGRP routes is 120."
+        },
+        {
+            "question": "What is the maximum number of routers that can be connected in a single broadcast domain with Ethernet technology?",
+            "option_a": "A. 10",
+            "option_b": "B. 63",
+            "option_c": "C. 254",
+            "option_d": "D. 512",
+            "correct_answer": "C",
+            "explanation": "In a single broadcast domain with Ethernet technology, the maximum number of routers connected is 254. This is due to the limited number of addresses in the broadcast domain, meaning that only a certain number of routers can be connected."
+        },
+        {
+            "question": "What type of media is used to connect two routers?",
+            "option_a": "A. Serial cable",
+            "option_b": "B. LAN cable",
+            "option_c": "C. Coaxial cable",
+            "option_d": "D. Fiber optic cable",
+            "correct_answer": "A",
+            "explanation": "Serial cables are typically used to connect two routers together."
+        },
+        {
+            "question": "What is the default administrative distance of OSPF routing protocol?",
+            "option_a": "A. 110",
+            "option_b": "B. 120",
+            "option_c": "C. 130",
+            "option_d": "D. 90",
+            "correct_answer": "D",
+            "explanation": "The default administrative distance of Open Shortest Path First (OSPF) routing protocol, which is a link-state protocol, is 90."
+        },
+        {
+            "question": "What are the two types of IP addressing?",
+            "option_a": "A. Static and Dynamic",
+            "option_b": "B. Public and Private",
+            "option_c": "C. Local and Global",
+            "option_d": "D. Internal and External",
+            "correct_answer": "A",
+            "explanation": "The two types of IP addressing are static and dynamic."
+        },
+        {
+            "question": "What does VLAN stand for?",
+            "option_a": "A. Virtual LAN",
+            "option_b": "B. Virtual Link Aggregation",
+            "option_c": "C. Virtual Local Area Network",
+            "option_d": "D. Virtual Link Area Network",
+            "correct_answer": "A",
+            "explanation": "VLAN stands for Virtual LAN and is used in modern networks to separate different broadcast domains on the same physical network."
+        },
+        {
+            "question": "What protocol is used to form point-to-point WAN links?",
+            "option_a": "A. Ethernet",
+            "option_b": "B. PPP",
+            "option_c": "C. ISDN",
+            "option_d": "D. HDLC",
+            "correct_answer": "B",
+            "explanation": "PPP (Point-to-Point Protocol) is used to form point-to-point WAN links."
+        },
+        {
+            "question": "What protocol is used by a router to exchange routing information in a dynamic protocol?",
+            "option_a": "A. RIP",
+            "option_b": "B. OSPF",
+            "option_c": "C. ICMP",
+            "option_d": "D. BGP",
+            "correct_answer": "B",
+            "explanation": "Open Shortest Path First (OSPF) is used by a router to exchange routing information in a dynamic protocol."
+        },
+        {
+            "question": "State the class of an IP address with the number 198.45.90.10?",
+            "option_a": "A. Class A",
+            "option_b": "B. Class B",
+            "option_c": "C. Class C",
+            "option_d": "D. Class D",
+            "correct_answer": "B",
+            "explanation": "An IP address with the number 198.45.90.10 is a Class B address"
+        },
+        {
+            "question": "What is the default subnet mask for a Class B address?",
+            "option_a": "A. 255.255.0.0",
+            "option_b": "B. 255.255.255.0",
+            "option_c": "C. 255.0.0.0",
+            "option_d": "D. 255.255.255.240",
+            "correct_answer": "C",
+            "explanation": "The default subnet mask for a Class B address is 255.0.0.0."
+        },
+        {
+            "question": "Which of the following are valid IP address ranges?",
+            "option_a": "A. 255.0.0.0 - 255.255.255.255",
+            "option_b": "B. 192.168.1.1 - 192.168.0.0",
+            "option_c": "C. 192.168.1.1 - 192.169.0.0",
+            "option_d": "D. 127.0.0.0 - 127.0.0.255",
+            "correct_answer": "D",
+            "explanation": "The valid IP address range is 127.0.0.0 to 127.0.0.255"
+        },
+        {
+            "question": "Which of the following are valid IP address?",
+            "option_a": "A. 255.0.0.1",
+            "option_b": "B. 999.999.999.999",
+            "option_c": "C. 192.168.1.1",
+            "option_d": "D. 127.0.0.1",
+            "correct_answer": "C",
+            "explanation": "An IP address must be between 0 and 255, therefore B and D are invalid."
+        },
+        {
+            "question": "What type of cable is used to connect two routers on the same LAN segment?",
+            "option_a": "A. Crossover cable",
+            "option_b": "B. Fiber optics cable",
+            "option_c": "C. Rolled cable",
+            "option_d": "D. Shielded cable",
+            "correct_answer": "A",
+            "explanation": "A crossover cable is used to connect two routers on the same LAN segment. Fiber optics cable transmits signals using light, rolled cable connects computers to terminals, and shielded cable helps minimize crosstalk."
+        },
+        {
+            "question": "What practice cam be followed to ensure secure passwords?",
+            "option_a": "A. Create passwords using names of family members",
+            "option_b": "B. Create passwords using common words",
+            "option_c": "C. Create passwords using a mix of characters and numbers",
+            "option_d": "D. Create passwords using only numbers",
+            "correct_answer": "c",
+            "explanation": "In order to ensure secure passwords, it is recommended to use a mix of characters and numbers as opposed to using names of family members, common words, or only numbers."
+        },
+        {
+            "question": "What type of address is used to send a broadcast to an entire LAN?",
+            "option_a": "A. Unicast",
+            "option_b": "B. Multicast",
+            "option_c": "C. Broadcast",
+            "option_d": "D. Subnet",
+            "correct_answer": "C",
+            "explanation": "A broadcast address is used to send a broadcast to an entire LAN. Unicast is a type of IP addressing, multicast is a type of IP addressing, and subnet is a type of IP addressing."
+        },
+        {
+            "question": "Which of the following is an important security concept?",
+            "option_a": "A. Authentication",
+            "option_b": "B. Encryption",
+            "option_c": "C. Compression",
+            "option_d": "D. Backup",
+            "correct_answer": "A",
+            "explanation": "Authentication is an important security concept which is used to verify the identity of users attempting to access a network."
+        },
+        {
+            "question": "Which of the following TCP/IP protocols is used for transferring email?",
+            "option_a": "A. FTP",
+            "option_b": "B. SMTP",
+            "option_c": "C. HTTP",
+            "option_d": "D. Telnet",
+            "correct_answer": "B",
+            "explanation": "SMTP is the protocol used for transferring email over TCP/IP networks."
+        },
+        {
+            "question": "What type of cable is typically used to interconnect two routers?",
+            "option_a": "A. Coaxial cable",
+            "option_b": "B. Twisted pair cable",
+            "option_c": "C. Fiber optic cable",
+            "option_d": "D. UTP cable",
+            "correct_answer": "D",
+            "explanation": "Unshielded Twisted Pair (UTP) cable is typically used to interconnect two routers."
+        },
+        {
+            "question": "What tool is used to manage devices on a network?",
+            "option_a": "A. Telnet",
+            "option_b": "B. FTP",
+            "option_c": "C. SNMP",
+            "option_d": "D. SSH",
+            "correct_answer": "C",
+            "explanation": "Simple Network Management Protocol (SNMP) is a tool used to manage devices on a network."
+        },
+        {
+            "question": "Which type of topology uses a central switch or hub?",
+            "option_a": "A. Mesh",
+            "option_b": "B. Ring",
+            "option_c": "C. Star",
+            "option_d": "D. Bus",
+            "correct_answer": "C",
+            "explanation": "A Star topology uses a central switch or hub and is therefore the most popular type of topology being used."
+        },
+        {
+            "question": "What is the default port used by FTP servers?",
+            "option_a": "A. 21",
+            "option_b": "B. 22",
+            "option_c": "C. 23",
+            "option_d": "D. 25",
+            "correct_answer": "A",
+            "explanation": "The default port used by FTP servers is 21."
+        },
+        {
+            "question": "Which TCP/IP protocol is used to troubleshoot network communication issues?",
+            "option_a": "A. FTP",
+            "option_b": "B. SMTP",
+            "option_c": "C. Telnet",
+            "option_d": "D. Ping",
+            "correct_answer": "D",
+            "explanation": "Ping is a TCP/IP protocol used to troubleshoot network communication issues."
+        },
+        {
+            "question": "Which layer of the OSI model is responsible for controlling the flow of data between systems?",
+            "option_a": "A. Application",
+            "option_b": "B. Transport",
+            "option_c": "C. Data Link",
+            "option_d": "D. Network",
+            "correct_answer": "B",
+            "explanation": "The transport layer of the OSI model is responsible for controlling the flow of data between systems."
+        },
+        {
+            "question": "What type of address is used to identify the source and destination of a data packet?",
+            "option_a": "A. IP address",
+            "option_b": "B. MAC address",
+            "option_c": "C. Subnet mask",
+            "option_d": "D. Default gateway",
+            "correct_answer": "A",
+            "explanation": "IP addresses are used to identify both the source and destination of a data packet."
+        },
+        {
+            "question": "Which of the following is a valid IPv4 address?",
+            "option_a": "A. 127.0.0",
+            "option_b": "B. 127.0.0.1",
+            "option_c": "C. 2001:0db8:0000:0000:0000:ff00:0042:8329",
+            "option_d": "D. 2002:0db8:0000:0000:0000:ff00:0042:8329",
+            "correct_answer": "b",
+            "explanation": "127.0.0.1 is a valid IPv4 address."
+        },
+        {
+            "question": "Which of the following is an example of a Layer 3 device?",
+            "option_a": "A. Switch",
+            "option_b": "B. Hub",
+            "option_c": "C. Router",
+            "option_d": "D. Bridge",
+            "correct_answer": "C",
+            "explanation": "Routers are Layer 3 devices used for packet forwarding and routing between networks."
+        },
+        {
+            "question": "What type of packet is created by the ARP protocol?",
+            "option_a": "A. ARP Request",
+            "option_b": "B. ARP Response",
+            "option_c": "C. ICMP Echo Request",
+            "option_d": "D. ICMP Echo Reply",
+            "correct_answer": "A",
+            "explanation": "ARP requests are the type of packet created by the ARP protocol which is used to resolve IP addresses to MAC addresses."
+        },
+        {
+            "question": "What device is used to create a secure connection between two networks?",
+            "option_a": "A. Switch",
+            "option_b": "B. Proxy Server",
+            "option_c": "C. Firewall",
+            "option_d": "D. Router",
+            "correct_answer": "C",
+            "explanation": "Firewalls are the devices used to create a secure connection between two networks."
+        },
+        {
+            "question": "What is the purpose of the DHCP lease time?",
+            "option_a": "A. To limit the frequency of address renewals",
+            "option_b": "B. To limit the number of addresses in a subnet",
+            "option_c": "C. To limit the amount of traffic in a subnet",
+            "option_d": "D. To limit the number of devices on a network",
+            "correct_answer": "A",
+            "explanation": "The purpose of the DHCP lease time is to limit the frequency of address renewals on the network."
+        },
+        {
+            "question": "What type of switching is used in properly implemented hierarchical networks? ",
+            "option_a": "A. Cut-through switching",
+            "option_b": "B. Store-and-forward switching",
+            "option_c": "C. Fragment-free switching",
+            "option_d": "D. Fast switching",
+            "correct_answer": "B",
+            "explanation": "Store and forward switching takes the entire frame into the switch, computes the CRC, stores the frame in the buffer, forwards it only if no errors are found and then discards it. Cut-through switching begins forwarding the frame as soon as the destination address is read from the header"
+        },
+        {
+            "question": "In a Cisco IOS network, which of the following commands is used to configure a Router to accept SSH connections?",
+            "option_a": "A. Enable ssh",
+            "option_b": "B. Allow ssh",
+            "option_c": "C. crypto key generate rsa",
+            "option_d": "D. ssh -l",
+            "correct_answer": "C",
+            "explanation": "The 'crypto key generate rsa' command is used to generate RSA keys which are necessary for SSH connectivity. The other options are invalid command variants."
+        },
+        {
+            "question": "Which of the following can be used to control simultaneous access to a resource in a network?",
+            "option_a": "A. Checksum",
+            "option_b": "B. Mutual Exclusion",
+            "option_c": "C. Flow Control",
+            "option_d": "D. Priority Encoding",
+            "correct_answer": "B",
+            "explanation": "Mutual exclusion is used to control simultaneous access to a resource in a network. Checksum is used to detect and correct errors in data transmission, flow control is used to control the rate of data transmission and priority encoding is used to differentiate traffic."
+        },
+        {
+            "question": "What is the default Layer 3 protocol used on Cisco routers?",
+            "option_a": "A. IPv4",
+            "option_b": "B. IPv6",
+            "option_c": "C. TCP",
+            "option_d": "D. UDP",
+            "correct_answer": "A",
+            "explanation": "The default Layer 3 protocol used on Cisco routers is IPv4. IPv6 is the successor to IPv4, TCP provides reliable, connection-oriented communication and UDP provides unreliable, connectionless communication."
+        },
+        {
+            "question": "Which type of encoding is used for data transmission on the media?",
+            "option_a": "A. Manchester encoding",
+            "option_b": "B. Inverted encoding",
+            "option_c": "C. Hamming encoding",
+            "option_d": "D. CRC encoding",
+            "correct_answer": "A",
+            "explanation": "Manchester encoding is used for data transmission on the media. Inverted encoding is used to represent logic levels, Hamming encoding is used to detect and correct errors in data transmission, and CRC encoding is used to detect errors in data transmission."
+        },
+        {
+            "question": "Which of the following traffic types is best handled by Quality of Service (QoS) protocols?",
+            "option_a": "A. Ethernet",
+            "option_b": "B. Voice",
+            "option_c": "C. Multicast",
+            "option_d": "D. TCP",
+            "correct_answer": "B",
+            "explanation": "QoS protocols are best suited for handling voice traffic. Ethernet is a type of link layer protocol, multicast is a type of IP addressing, and TCP is a type of transport layer protocol."
+        },
+        {
+            "question": "Which of the following commands is used to troubleshoot a VLAN on a Cisco switch?",
+            "option_a": "A. show mac-address-table",
+            "option_b": "B. show cdp neighbor",
+            "option_c": "C. show vlan",
+            "option_d": "D. show ip arp",
+            "correct_answer": "C",
+            "explanation": "The 'show vlan' command is used to troubleshoot a VLAN on a Cisco switch. The 'show mac-address-table' command is used to display the MAC addresses of devices connected to the switch, 'show cdp neighbor' command is used to display CDP neighbors of the Cisco switch and 'show ip arp' command is used to display the ARP table of the switch."
+        },
+        {
+            "question": "What protocol is used to resolve IP addresses to MAC addresses?",
+            "option_a": "A. TCP/IP",
+            "option_b": "B. DHCP",
+            "option_c": "C. ARP",
+            "option_d": "D. SNMP",
+            "correct_answer": "C",
+            "explanation": "ARP is used to resolve IP addresses to MAC addresses. TCP/IP is a suite of protocols, DHCP is used to assign IP addresses to hosts, and SNMP is used to manage and monitor network devices."
+        },
+        {
+            "question": "Which of the following is the default administrative distance of static routes?",
+            "option_a": "A. 90",
+            "option_b": "B. 100",
+            "option_c": "C. 120",
+            "option_d": "D. 1",
+            "correct_answer": "D",
+            "explanation": "The default administrative distance of static routes is 1. Administrative distance is a measure of the trustworthiness of the routing information which determines which route to select when multiple routes to the same destination from different sources exist. The higher the administrative distance, the lower the trustworthiness."
+        },
+        {
+            "question": "Which of the following is used to control the order in which hosts are allowed to transmit data on a network?",
+            "option_a": "A. Access lists",
+            "option_b": "B. MTU",
+            "option_c": "C. Collision domains",
+            "option_d": "D. Carrier sensing",
+            "correct_answer": "D",
+            "explanation": "Carrier sensing is used to control the order in which hosts are allowed to transmit data on a network. Access lists are used to control the traffic flowing through a router, MTU is used to set the maximum size of a packet that can be sent, and collision domains are groups of devices that share the same Ethernet segment."
+        },
+        {
+            "question": "What is the default mask for a Class B IP address?",
+            "option_a": "A. 255.0.0.0",
+            "option_b": "B. 255.255.0.0",
+            "option_c": "C. 255.255.255.0",
+            "option_d": "D. 255.255.255.255",
+            "correct_answer": "B",
+            "explanation": "The default mask for a Class B IP address is 255.255.0.0. 255.0.0.0 is the default mask for a Class A IP address, 255.255.255.0 is the default mask for a Class C IP address, and 255.255.255.255 is the default mask for a Class D IP address."
+        },
+        {
+            "question": "Which of the following is used to determine the path that a packet must travel to reach its destination?",
+            "option_a": "A. NAT",
+            "option_b": "B. Routing table",
+            "option_c": "C. Firewall",
+            "option_d": "D. DHCP",
+            "correct_answer": "B",
+            "explanation": "The routing table is used to determine the path that a packet must travel to reach its destination. NAT is used to modify IP addresses as packets pass through a router, a firewall is used to control access to a network, and DHCP is used to assign IP addresses to hosts."
+        },
+        {
+            "question": "What type of problem does the “Split Horizon” technique prevent?",
+            "option_a": "A. Broadcast storm",
+            "option_b": "B. Routing loop",
+            "option_c": "C. DNS lookup",
+            "option_d": "D. DHCP lookup",
+            "correct_answer": "B",
+            "explanation": "The “Split Horizon” technique prevents routing loops. A broadcast storm occurs when a network device continuously broadcasts a packet, DNS lookup is used to resolve domain names to IP addresses, and DHCP lookup is used to assign IP addresses to hosts."
+        },
+        {
+            "question": "Which of the following commands is used to measure the response time of an IP network?",
+            "option_a": "A. tracert",
+            "option_b": "B. ping",
+            "option_c": "C. nslookup",
+            "option_d": "D. telnet",
+            "correct_answer": "B",
+            "explanation": "The 'ping' command is used to measure the response time of an IP network. 'tracert' command is used to trace the path to a host, 'nslookup' is used to query DNS servers, and 'telnet' is used to create a terminal session."
+        },
+        {
+            "question": "Which of the following encapsulates the Layer 3 packet with a Layer 2 header for transmission?",
+            "option_a": "A. Network layer",
+            "option_b": "B. Data link layer",
+            "option_c": "C. Transport layer",
+            "option_d": "D. Application layer",
+            "correct_answer": "B",
+            "explanation": "The data link layer encapsulates the Layer 3 packet with a Layer 2 header for transmission. The network layer is responsible for routing in the internetwork, the transport layer provides end-to-end communication and the application layer provides user services."
+        },
+        {
+            "question": "What is the maximum transmission unit (MTU) on Ethernet networks?",
+            "option_a": "A. 64 bytes",
+            "option_b": "B. 128 bytes",
+            "option_c": "C. 256 bytes",
+            "option_d": "D. 1518 bytes",
+            "correct_answer": "D",
+            "explanation": "The maximum transmission unit (MTU) on Ethernet networks is 1518 bytes. Option A and B are too small and option C is too large."
+        },
+        {
+            "question": "What command is used to display the routing table of a router?",
+            "option_a": "A. show protocol",
+            "option_b": "B. show route",
+            "option_c": "C. show running program",
+            "option_d": "D. show interfaces",
+            "correct_answer": "B",
+            "explanation": "The show route command is used to display the routing table of a router."
+        },
+        {
+            "question": "A VLAN is a _________?",
+            "option_a": "A. Layer 3 protocol",
+            "option_b": "B. Logical network segment",
+            "option_c": "C. Physical network segment",
+            "option_d": "D. Layer 2 protocol",
+            "correct_answer": "B",
+            "explanation": "A VLAN is a logical network segment that operates on Layer 2."
+        },
+        {
+            "question": "What type of transmission is used by IEEE 802.11?",
+            "option_a": "A. Broadcast",
+            "option_b": "B. Unicast",
+            "option_c": "C. Multicast",
+            "option_d": "D. All of the above",
+            "correct_answer": "D",
+            "explanation": "IEEE 802.11 is able to transfer data using broadcast, unicast and multicast transmissions."
+        },
+        {
+            "question": "What command is used to create a static route?",
+            "option_a": "A. ip route",
+            "option_b": "B. route add",
+            "option_c": "C. net route",
+            "option_d": "D. set route",
+            "correct_answer": "A",
+            "explanation": "The ip route command is used to create a static route."
+        },
+        {
+            "question": "Which of the following layers does Network Address Translation (NAT) operate on?",
+            "option_a": "A. Layer 2",
+            "option_b": "B. Layer 3",
+            "option_c": "C. Layer 4",
+            "option_d": "D. Layer 5",
+            "correct_answer": "B",
+            "explanation": "Network Address Translation (NAT) operates on Layer 3 of the OSI model."
+        },
+        {
+            "question": "What command sets the administrative distance of a route?",
+            "option_a": "A. set ip distance",
+            "option_b": "B. ip route distance",
+            "option_c": "C. distance command",
+            "option_d": "D. route distance",
+            "correct_answer": "D",
+            "explanation": "The route distance command is used to set the administrative distance of a route."
+        },
+        {
+            "question": "Which of the following devices is used to create a layer 2 network segment?",
+            "option_a": "A. Router",
+            "option_b": "B. Switch",
+            "option_c": "C. Bridge",
+            "option_d": "D. Firewall",
+            "correct_answer": "B",
+            "explanation": "A switch is used to create a layer 2 network segment."
+        },
+        {
+            "question": "What is the default OSPF cost value for incoming updates?",
+            "option_a": "A. 0",
+            "option_b": "B. 1",
+            "option_c": "C. 10",
+            "option_d": "D. 100",
+            "correct_answer": "B",
+            "explanation": "The default OSPF cost value for incoming updates is 1"
+        },
+        {
+            "question": "Which of the following protocols is used for remote access?",
+            "option_a": "A. IPsec",
+            "option_b": "B. STP",
+            "option_c": "C. RDP",
+            "option_d": "D. SSH",
+            "correct_answer": "D",
+            "explanation": "Secure Shell (SSH) is used for remote access."
+        },
+        {
+            "question": "What is the usual port number for SSL (HTTPS)?",
+            "option_a": "A. 80",
+            "option_b": "B. 443",
+            "option_c": "C. 21",
+            "option_d": "D. 8080",
+            "correct_answer": "B",
+            "explanation": "The usual port number for SSL (HTTPS) is 443."
+        },
+        {
+            "question": "What is the simplest form of load balancing?",
+            "option_a": "A. Round robin",
+            "option_b": "B. Weighted round robin",
+            "option_c": "C. Spillover",
+            "option_d": "D. Dynamic load balancing",
+            "correct_answer": "A",
+            "explanation": "Round robin is the simplest form of load balancing."
+        },
+        {
+            "question": "How is a switch configured as a VTP server?",
+            "option_a": "A. Configure it as the domain master",
+            "option_b": "B. Configure it as the VTP Domain",
+            "option_c": "C. Configure it as the VTP mode server",
+            "option_d": "D. Configure it as the VTP Domain server",
+            "correct_answer": "D",
+            "explanation": "A switch is configured as a VTP server by configuring it as the VTP Domain server."
+        },
+        {
+            "question": "Which of the following is NOT a Cisco discovery protocol (CDP) feature?",
+            "option_a": "A. Automatic neighbor discovery",
+            "option_b": "B. Link-layer protocol discovery",
+            "option_c": "C. Application layer protocol information",
+            "option_d": "D. Address resolution protocol (ARP) lookup",
+            "correct_answer": "D",
+            "explanation": "Address resolution protocol (ARP) lookup is not a Cisco Discovery Protocol (CDP) feature."
+        },
+        {
+            "question": "What address is used by dynamic host configuration protocol (DHCP) servers to detect duplicate IP addresses?",
+            "option_a": "A. Multicast",
+            "option_b": "B. MAC address",
+            "option_c": "C. Broadcast",
+            "option_d": "D. IP address",
+            "correct_answer": "B",
+            "explanation": "Dynamic host configuration protocol (DHCP) servers detect duplicate IP addresses by using the MAC address of the requesting client."
+        },
+        {
+            "question": "Which acronym represents the process of exchanging routing information between two networks?",
+            "option_a": "A. ARP",
+            "option_b": "B. GARP",
+            "option_c": "C. NAT",
+            "option_d": "D. RIP",
+            "correct_answer": "D",
+            "explanation": "Routing Information Protocol (RIP) is a dynamic routing protocol used to exchange routing information between networks."
+        },
+        {
+            "question": "Which of the following logically separate a LAN into two or more logical subnets?",
+            "option_a": "A. Traceroute",
+            "option_b": "B. Gateway",
+            "option_c": "C. Routers",
+            "option_d": "D. FTP",
+            "correct_answer": "C",
+            "explanation": "Routers are used to logically separate a LAN into two or more subnetworks. This process is referred to as 'subnetting'."
+        },
+        {
+            "question": "What type of data link layer technology is a hub best suited to support?",
+            "option_a": "A. FDDI",
+            "option_b": "B. Ethernet",
+            "option_c": "C. Wi-Fi",
+            "option_d": "D. Token ring",
+            "correct_answer": "B",
+            "explanation": "A hub is best suited to support Ethernet technology due to its simplified structure, in contrast to more complex data link Ethernet technologies such as FDDI and Token Ring."
+        },
+        {
+            "question": "What is the subnet mask for a mask length of 24 bits?",
+            "option_a": "A. 255.255.128.0",
+            "option_b": "B. 255.255.255.0",
+            "option_c": "C. 255.255.224.0",
+            "option_d": "D. 255.0.0.0",
+            "correct_answer": "B",
+            "explanation": "The subnet mask of a mask length of 24 bits is 255.255.255.0, which is often referred to CIDR notation as /24."
+        },
+        {
+            "question": "What command allows you to check the connectivity between two nodes using ICMP?",
+            "option_a": "A. tracert",
+            "option_b": "B. traceroute",
+            "option_c": "C. ping",
+            "option_d": "D. netstat",
+            "correct_answer": "C",
+            "explanation": "The command 'ping' allows you to check the connectivity between two nodes using ICMP (Internet Control Message Protocol)."
+        },
+        {
+            "question": "Which of the following is not a benefit of using VLANs?",
+            "option_a": "A. Simplifies LAN security",
+            "option_b": "B. Reduces broadcast traffic",
+            "option_c": "C. Restricts access to certain nodes",
+            "option_d": "D. Increases broadcast traffic",
+            "correct_answer": "D",
+            "explanation": "Virtual LANs (VLANs) are used to logically separate broadcast traffic, not increase it. The other listed benefits are advantages of using VLANs."
+        },
+        {
+            "question": "What command will display the routing table?",
+            "option_a": "A. sh ip route",
+            "option_b": "B. show ip routing",
+            "option_c": "C. show ip route",
+            "option_d": "D. sh route",
+            "correct_answer": "C",
+            "explanation": "The command 'show ip route' is used to display the contents of the routing table of a router."
+        },
+        {
+            "question": "What are the two addressable parts of an IP address?",
+            "option_a": "A. Network and Broadcast",
+            "option_b": "B. Network and Gateway",
+            "option_c": "C. Host and Network",
+            "option_d": "D. Subnet and Host",
+            "correct_answer": "D",
+            "explanation": "The two addressable parts of an IP address are the Subnet and Host. The Network and Broadcast addresses are used to identify the subnets within the network, while the Gateway address is used to identify the router."
+        },
+        {
+            "question": "What port does Telnet use by default?",
+            "option_a": "A. 22",
+            "option_b": "B. 23",
+            "option_c": "C. 24",
+            "option_d": "D. 25",
+            "correct_answer": "B",
+            "explanation": "Telnet uses port number 23 by default. Telnet is a protocol used to remotely connect to a laptop, computer, or device to control or view information."
+        },
+        {
+            "question": "What type of interface is used to connect a router to a modem to access the Internet?",
+            "option_a": "A. Channel Interface Unit (CIU)",
+            "option_b": "B. Ethernet",
+            "option_c": "C. Serial",
+            "option_d": "D. Fast Ethernet",
+            "correct_answer": "C",
+            "explanation": "A serial interface is used to connect a router to a modem to access the Internet. This interface can either be a Serial D-Sub 9 connector or an RS-232 connector, depending on the exact configuration of the router."
+        },
+        {
+            "question": "What type of frame would a switch use to learn the MAC address of a device that is connected to the network?",
+            "option_a": "A. Data frame",
+            "option_b": "B. Echo frame",
+            "option_c": "C. Control frame",
+            "option_d": "D. Broadcast frame",
+            "correct_answer": "D",
+            "explanation": "When a device connects to the network, a switch uses broadcast frames to learn the MAC address of the device. The switch then adds the MAC address to its address table to enable further switching."
+        },
+        {
+            "question": "What is the maximum length of a UTP cable segment in a 10Base-T network?",
+            "option_a": "A. 100 meters",
+            "option_b": "B. 150 meters",
+            "option_c": "C. 200 meters",
+            "option_d": "D. 250 meters",
+            "correct_answer": "A",
+            "explanation": "The maximum length of a UTP cable segment in a 10Base-T network is 100 meters. This maximum length should be kept in mind while designing a network to ensure that the network is within the specifications of the network technology being used."
+        },
+        {
+            "question": "What is the purpose of Routing Information Protocol (RIP)?",
+            "option_a": "A. To encrypt data",
+            "option_b": "B. To decrypt data",
+            "option_c": "C. To exchange routing information",
+            "option_d": "D. To detect routing loops",
+            "correct_answer": "C",
+            "explanation": "Routing Information Protocol (RIP) is a dynamic routing protocol used to exchange routing information between networks and is used to detect routing loops. RIP does not encrypt or decrypt data."
+        },
+        {
+            "question": "Which command enables static nat on a router?",
+            "option_a": "A. no ip nat enable",
+            "option_b": "B. ip nat enable",
+            "option_c": "C. ip nat static",
+            "option_d": "D. no ip nat static",
+            "correct_answer": "C",
+            "explanation": "The command 'ip nat static' is used to enable static NAT on a router. This command is used to map internal addresses to external addresses, allowing them to communicate with external networks."
+        },
+        {
+            "question": "What is the administrative distance of EIGRP routing protocol?",
+            "option_a": "A. 90",
+            "option_b": "B. 100",
+            "option_c": "C. 110",
+            "option_d": "D. 120",
+            "correct_answer": "B",
+            "explanation": "The administrative distance of Enhanced Interior Gateway Routing Protocol (EIGRP) routing protocol is 100. EIGRP is a hybrid between a link-state and distance-vector protocol."
+        },
+        {
+            "question": "Which field is used by a router to differentiate between a priority and low-priority traffic?",
+            "option_a": "A. MTU",
+            "option_b": "B. Flow Control",
+            "option_c": "C. Total Length",
+            "option_d": "D. TOS",
+            "correct_answer": "D",
+            "explanation": "The Type of Service (TOS) field is used by a router to differentiate between priority and low-priority traffic. TOS allows routers to differentiate traffic based on their protocol, port, etc."
+        },
+        {
+            "question": "Which command is used to view the MAC address table on a switch?",
+            "option_a": "A. show mac-address",
+            "option_b": "B. show interface mac-address",
+            "option_c": "C. show interface switchport",
+            "option_d": "D. show mac address-table",
+            "correct_answer": "D",
+            "explanation": "The command 'show mac address-table' is used to view the MAC address table on a switch. This MAC address table is used to enable the switch to forward frames to the correct destination port."
+        },
+        {
+            "question": "What is the default subnet mask for a Class C address?",
+            "option_a": "A. 255.255.0.0",
+            "option_b": "B. 255.255.255.0",
+            "option_c": "C. 255.0.0.0",
+            "option_d": "D. 255.255.255.240",
+            "correct_answer": "B",
+            "explanation": "The default subnet mask for a Class C address is 255.255.255.0"
+        },
+        {
+            "question": "What is the lowest possible host address for a subnet that has a subnet mask of 255.255.255.248?",
+            "option_a": "A. 192.168.10.7",
+            "option_b": "B. 192.168.10.0",
+            "option_c": "C. 192.168.10.3",
+            "option_d": "D. 192.168.10.8",
+            "correct_answer": "B",
+            "explanation": "The lowest possible host address for a subnet with a subnet mask of 255.255.255.248 is 192.168.10.0"
+        },
+        {
+            "question": "What command would show a router's current routing table?",
+            "option_a": "A. show ip route",
+            "option_b": "B. show run",
+            "option_c": "C. show processes",
+            "option_d": "D. show arp",
+            "correct_answer": "A",
+            "explanation": "The command show ip route will display the router's routing table."
+        },
+        {
+            "question": "What is a broadcast address?",
+            "option_a": "A. A packet sent to all devices on the same network",
+            "option_b": "B. A packet sent to a specific host",
+            "option_c": "C. A packet sent to all devices on a specific subnet",
+            "option_d": "D. A packet sent to all devices on the Internet",
+            "correct_answer": "A",
+            "explanation": "A broadcast address is a packet sent to all devices on the same network."
+        },
+        {
+            "question": "What command can remove a static route from a router?",
+            "option_a": "A. no ip route",
+            "option_b": "B. clear ip route",
+            "option_c": "C. delete ip route",
+            "option_d": "D. remove ip route",
+            "correct_answer": "A",
+            "explanation": "The command no ip route can remove a static route from a router."
+        },
+        {
+            "question": "What is the purpose of CDP?",
+            "option_a": "A. It is used to configure switch ports",
+            "option_b": "B. It is used to exchange information between routers and switches",
+            "option_c": "C. It is used to identify the source and destination of a packet on the network",
+            "option_d": "D. It is used to detect network attack patterns",
+            "correct_answer": "B",
+            "explanation": "CDP (Cisco Discovery Protocol) is used to exchange information between routers and switches."
+        },
+        {
+            "question": "What is the purpose of OSPF?",
+            "option_a": "A. It is used to detect network attack patterns",
+            "option_b": "B. It is used to configure switch ports",
+            "option_c": "C. It is used to determine the shortest path between two nodes",
+            "option_d": "D. It is used to exchange information between routers and switches",
+            "correct_answer": "C",
+            "explanation": "OSPF (Open Shortest Path First) is used to determine the shortest path between two nodes."
+        },
+        {
+            "question": "What is the default Hello Interval for OSPF?",
+            "option_a": "A. 10 seconds",
+            "option_b": "B. 30 seconds",
+            "option_c": "C. 60 seconds",
+            "option_d": "D. 90 seconds",
+            "correct_answer": "B",
+            "explanation": "The default Hello Interval for OSPF is 30 seconds."
+        },
+        {
+            "question": "What command can be used to view a routing table on a router?",
+            "option_a": "A. show route table",
+            "option_b": "B. show ip route",
+            "option_c": "C. show run",
+            "option_d": "D. show arp table",
+            "correct_answer": "B",
+            "explanation": "The command show ip route can be used to view a routing table on a router."
+        },
+        {
+            "question": "What is the default administrative distance for a static route?",
+            "option_a": "A. 1",
+            "option_b": "B. 10",
+            "option_c": "C. 20",
+            "option_d": "D. 30",
+            "correct_answer": "A",
+            "explanation": "The default administrative distance for a static route is 1."
+        },
+        {
+            "question": "What type of address is 192.168.1.1/24?",
+            "option_a": "A. Network address",
+            "option_b": "B. Broadcast address",
+            "option_c": "C. Host address",
+            "option_d": "D. Subnet address",
+            "correct_answer": "C",
+            "explanation": "192.168.1.1/24 is a host address."
+        },
+        {
+            "question": "What is the purpose of the command show mac-address-table dynamic?",
+            "option_a": "A. It displays all dynamic MAC addresses on the switch",
+            "option_b": "B. It displays all static MAC addresses on the switch",
+            "option_c": "C. It displays all MAC addresses on the switch",
+            "option_d": "D. It displays all expired MAC addresses on the switch",
+            "correct_answer": "A",
+            "explanation": "The command show mac-address-table dynamic displays all dynamic MAC addresses on the switch."
+        },
+        {
+            "question": "What layer of the OSI model is involved in routing?",
+            "option_a": "A. Network Layer",
+            "option_b": "B. Data Link Layer",
+            "option_c": "C. Physical Layer",
+            "option_d": "D. Application Layer",
+            "correct_answer": "A",
+            "explanation": "Routing is done at the Network Layer of the OSI model."
+        },
+        {
+            "question": "What is the default VTY password on a Cisco router?",
+            "option_a": "A. cisco",
+            "option_b": "B. password",
+            "option_c": "C. enable",
+            "option_d": "D. None",
+            "correct_answer": "D",
+            "explanation": "The default VTY password on a Cisco router is None."
+        },
+        {
+            "question": "What is the difference between NVI and SVIs?",
+            "option_a": "A. NVI is a physical interface, while SVIs are logical interfaces",
+            "option_b": "B. NVI is a virtual interface, while SVIs are physical interfaces",
+            "option_c": "C. NVI is a logical interface, while SVIs are physical interfaces",
+            "option_d": "D. NVI is a physical interface, while SVIs are virtual interfaces",
+            "correct_answer": "A",
+            "explanation": "NVI (Network Virtual Interface) is a physical interface, while SVIs (Switched Virtual Interfaces) are logical interfaces."
+        },
+        {
+            "question": "What is the purpose of the command debug ip rip?",
+            "option_a": "A. It is used to configure a RIP routing process",
+            "option_b": "B. It is used to view the contents of the RIP routing table",
+            "option_c": "C. It is used to troubleshoot RIP routing issues",
+            "option_d": "D. It is used to create entries in the RIP routing table",
+            "correct_answer": "C",
+            "explanation": "The command debug ip rip is used to troubleshoot RIP routing issues."
+        }
+    ]
+}

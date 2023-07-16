@@ -1,0 +1,94 @@
+{
+    "questions": [
+        {
+            "question": "Which layer of the OSI model is responsible for end-to-end error checking and reliable data transfer?",
+            "option_a": "A. Physical layer",
+            "option_b": "B. Data link layer",
+            "option_c": "C. Network layer",
+            "option_d": "D. Transport layer",
+            "correct_answer": "D",
+            "explanation": "The Transport layer (Layer 4) of the OSI model is responsible for end-to-end error checking and ensuring reliable data transfer between source and destination devices."
+        },
+        {
+            "question": "What protocol is used to automatically assign IP addresses to network devices?",
+            "option_a": "A. DNS",
+            "option_b": "B. DHCP",
+            "option_c": "C. NAT",
+            "option_d": "D. SMTP",
+            "correct_answer": "B",
+            "explanation": "The Dynamic Host Configuration Protocol (DHCP) is used to automatically assign IP addresses to network devices, as well as provide additional configuration information such as default gateway and DNS server."
+        },
+        {
+            "question": "Which type of cable is used to connect a switch to a router?",
+            "option_a": "A. Straight-through cable",
+            "option_b": "B. Crossover cable",
+            "option_c": "C. Rollover cable",
+            "option_d": "D. Console cable",
+            "correct_answer": "A",
+            "explanation": "A straight-through cable is used to connect devices with different roles, such as a switch and a router. The transmit pins on one end of the cable connect to the receive pins on the other end."
+        },
+        {
+            "question": "What is the default administrative distance of an OSPF route?",
+            "option_a": "A. 90",
+            "option_b": "B. 100",
+            "option_c": "C. 110",
+            "option_d": "D. 120",
+            "correct_answer": "C",
+            "explanation": "The default administrative distance of an OSPF route is 110. Administrative distance is a metric used by routers to choose the best path when there are multiple routes to the same destination from different routing protocols."
+        },
+        {
+            "question": "Which command is used to display the IP routing table on a Cisco router?",
+            "option_a": "A. show ip route",
+            "option_b": "B. display ip route",
+            "option_c": "C. show ip routes",
+            "option_d": "D. show routing table",
+            "correct_answer": "A",
+            "explanation": "The command 'show ip route' is used on a Cisco router to display the current IP routing table, which contains the router's known routes to various network destinations."
+        },
+        {
+            "question": "Which protocol is responsible for mapping IP addresses to MAC addresses?",
+            "option_a": "A. ARP",
+            "option_b": "B. ICMP",
+            "option_c": "C. RARP",
+            "option_d": "D. SNMP",
+            "correct_answer": "A",
+            "explanation": "The Address Resolution Protocol (ARP) is responsible for mapping IP addresses to their corresponding MAC addresses on a local network."
+            },
+            {
+            "question": "What is the purpose of the Spanning Tree Protocol (STP)?",
+            "option_a": "A. To prevent routing loops",
+            "option_b": "B. To prevent switching loops",
+            "option_c": "C. To load balance traffic",
+            "option_d": "D. To encrypt data transmission",
+            "correct_answer": "B",
+            "explanation": "The Spanning Tree Protocol (STP) is designed to prevent switching loops by identifying redundant links and placing them in a blocking state, thus creating a loop-free topology."
+            },
+            {
+            "question": "Which command is used to configure an IP address on a Cisco router's interface?",
+            "option_a": "A. config ip",
+            "option_b": "B. set ip address",
+            "option_c": "C. ip address",
+            "option_d": "D. interface ip",
+            "correct_answer": "C",
+            "explanation": "The 'ip address' command is used to configure an IP address on a Cisco router's interface when in interface configuration mode. For example: 'ip address 192.168.1.1 255.255.255.0'."
+            },
+            {
+            "question": "What is the function of a VLAN?",
+            "option_a": "A. To provide redundancy",
+            "option_b": "B. To segment a network",
+            "option_c": "C. To increase bandwidth",
+            "option_d": "D. To provide network security",
+            "correct_answer": "B",
+            "explanation": "A Virtual Local Area Network (VLAN) is used to segment a network, logically separating devices into different broadcast domains, even if they share the same physical infrastructure. This can help improve network performance and organization."
+            },
+            {
+            "question": "Which Cisco IOS command is used to save the running configuration to the startup configuration?",
+            "option_a": "A. save config",
+            "option_b": "B. write running",
+            "option_c": "C. copy running-config startup-config",
+            "option_d": "D. copy startup-config running-config",
+            "correct_answer": "C",
+            "explanation": "The command 'copy running-config startup-config' is used to save the current running configuration to the startup configuration, ensuring that changes made to the configuration are retained after a device reboot."
+            }
+    ]
+}
