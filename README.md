@@ -1,1 +1,1 @@
-# hostinger_quiz_website
+# Hostinger Quiz Website and GPT-3.5 and ChatGPT APIs.
