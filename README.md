@@ -7,5 +7,5 @@
 4. You need to install the following modules `pip install openai`
 5. You need to get your own API Key, follow the PDF document in the YouTube video description to get you OpenAI API Key.
 6. The `davinci-003.py` and `chatgpt-api.py` files contains the OpenAI API usage examples to create quiz questions in JSON format.
-7. You can set up a server on Hostinger (Use Coupon Code: DAVIDBOMBAL on checkout to get a 10% discount.) or you can run your web site locally using live server plugin. Follow the video to get either way to run. 
+7. You can set up a server on Hostinger (Use Coupon Code: DAVIDBOMBAL on checkout to get a 10% discount.) or you can run your web site locally using live server plugin. You only need to copy all the files excluding the .py files to the directory on your server. Follow the instructions in the video to get the website up and running on Hostinger or Live Server (on your local machine). 
   
